@@ -18,8 +18,18 @@ const Home = () => {
           <img src={hero_title} alt="" className='caption-img' />
           <p>Discovering his ties to a secret ancient order, a young man living in modern Istanbul embarks on a quest to save the city from a immortal enemy.</p>
           <div className="hero-btns">
-            <button className='btn'><img src={play_icon} alt="" />Play</button>
-            <button className='btn dark-btn'><img src={info_icon} alt="" />More Info</button>
+            <a href="https://www.youtube.com/watch?v=80dqOwAOhbo&t=9s" target="_blank" rel="noopener noreferrer">
+              <button className='btn'>
+                <img src={play_icon} alt="Play Icon" />
+                  Play
+              </button>
+            </a>
+            <a href='https://www.netflix.com/pt-en/' target='_blank' rel='noopener norefferrer'>
+              <button className='btn dark-btn'>
+                <img src={info_icon} alt="" />
+                  More Info
+              </button>
+            </a>
           </div>
           <TitleCards/>
         </div>
